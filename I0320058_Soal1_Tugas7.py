@@ -1,0 +1,17 @@
+#Buatlah 1 program menggunakan fungsi string (Min 3 jenisfungsi string)
+def fungsistring(x):
+    print('\nKeadaan awal =', x)
+    print('\nSetelah diberikan fungsi string jenis capitalize')
+    y=x.capitalize()
+    print(y)
+    print('\nSetelah diberikan fungsi string jenis center')
+    u=x.center(40, '-')
+    print('>>>', u)
+    print('\nSetelah diberikan fungsi string jenis endswith')
+    print('>>>',x.endswith('Punten'))
+    print('\nSetelah diberikan fungsi string jenis upper & lower')
+    print('>>>',x.upper())
+    print('>>>',x.lower())
+
+k=(input('Masukkan Kalimat (maksimal 2 kata) : '))
+fungsistring(k)
